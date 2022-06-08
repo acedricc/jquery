@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/app2.css">
+</head>
+<body>
+    <div class="conteneur">
+        <h1>Cours jQuery - Traverser le DOM</h1>
+        <div>
+            <p>Un paragraphe HTML</p>
+        </div>
+        <div id="methodes">
+            <p>Quelques méthodes jQuery permettant de <span>remonter</span> le DOM :</p>
+            <ul id="parents" class="bleu bglb">
+                <li>parent()</li>
+                <li>parents()</li>
+                <li>parentsUntil()</li>
+                <li>closest()</li>
+            </ul>
+    
+            <p>Quelques méthodes permettant de <span>descendre</span> le DOM :</p>
+            <ul id="enfants" class="bleu">
+                <li class="li1 bleu">children()</li>
+                <li>find()</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="conteneur2">
+        <p>Plus de méthodes pour traverser le DOM :</p>
+        <ul id="liste">
+            <li>siblings()</li>
+            <li>next()</li>
+            <li>nextAll()</li>
+            <li>nextUntil()</li>
+            <li>prev()</li>
+            <li>prevAll()</li>
+            <li>prevUntil()</li>
+        </ul>
+    </div>
+    <p id="desc">
+        Ces méthodes servent à accéder aux éléments frères d'une première
+        collection d'éléments. 
+    </p>
+    </div>  
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/app2.js"></script> 
+</body>
+</html>
