@@ -65,7 +65,9 @@ $("span").not(".souligne").css("color","orange")
 // methode first(),last()
 $("p").last().css("color","pink")
 //eq()
-$("p").eq(1).css("color","blue")
+// $("p").eq(1).css("color","blue")
+$('#p2').html("<span style='color:red'>il faut ...</span>")
+// $('#p2').text("<span style='color:red'>il faut ...</span>")
 
 
 
